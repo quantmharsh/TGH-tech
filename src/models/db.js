@@ -15,7 +15,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.connectDB = void 0;
 // src/models/db.ts
 const mongoose_1 = __importDefault(require("mongoose"));
-const MONGO_URI = 'mongodb+srv://viratkohli0737:B4PMsOOoq8vtL3TW@cluster0.erluey0.mongodb.net/?retryWrites=true&w=majority';
+const MONGO_URI = "enter your Mongodb atlas URL i have removed mine"
 const connectDB = () => __awaiter(void 0, void 0, void 0, function* () {
     try {
         yield mongoose_1.default.connect(MONGO_URI, {

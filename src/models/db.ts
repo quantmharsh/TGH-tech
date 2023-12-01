@@ -1,7 +1,7 @@
 // src/models/db.ts
 import mongoose from 'mongoose';
 
-const MONGO_URI = 'mongodb+srv://viratkohli0737:B4PMsOOoq8vtL3TW@cluster0.erluey0.mongodb.net/?retryWrites=true&w=majority';
+const MONGO_URI = 'enter your Mongodb atlas URL i have removed mine';
 
 export const connectDB = async () => {
   try {
